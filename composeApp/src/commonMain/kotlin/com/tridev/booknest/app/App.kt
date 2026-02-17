@@ -13,7 +13,7 @@ fun App() {
 
     BookListScreenRoot(
         viewModel = remember { BookListViewModel() },
-        onBackClick = {
+        onBookClick = {
 
         },
         modifier = Modifier.fillMaxSize()
